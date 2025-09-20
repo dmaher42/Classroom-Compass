@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import SearchBar from './components/SearchBar';
 import Dashboard from './components/Dashboard';
 import ResponseBuilder from './components/ResponseBuilder';
+import DailyTip from './components/DailyTip';
 import issuesData from './data/issues.json';
 
 export default function App() {
@@ -24,6 +25,10 @@ export default function App() {
       <header style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12 }}>
         <h1 style={{ margin: 0 }}>Classroom Compass</h1>
       </header>
+
+      <section style={{ marginTop: 16 }}>
+        <DailyTip />
+      </section>
 
       <section style={{ marginTop: 16 }}>
         <SearchBar query={query} setQuery={setQuery} />
