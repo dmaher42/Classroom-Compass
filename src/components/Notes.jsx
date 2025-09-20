@@ -28,8 +28,8 @@ export default function Notes() {
   };
 
   return (
-    <section style={{ marginTop: 24 }}>
-      <label htmlFor="compass-notes" style={{ display: 'block', fontWeight: 600, marginBottom: 8 }}>
+    <section className="section section-spacious">
+      <label htmlFor="compass-notes" className="notes-label">
         Notes
       </label>
       <textarea
@@ -37,15 +37,7 @@ export default function Notes() {
         value={notes}
         onChange={handleChange}
         rows={6}
-        style={{
-          width: '100%',
-          padding: 12,
-          fontSize: '1rem',
-          fontFamily: 'inherit',
-          borderRadius: 8,
-          border: '1px solid #ccc',
-          resize: 'vertical'
-        }}
+        className="notes-textarea"
         placeholder="Jot down reminders, next steps, or insights here..."
       />
     </section>

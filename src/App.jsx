@@ -6,6 +6,7 @@ import ResponseBuilder from './components/ResponseBuilder';
 import DailyTip from './components/DailyTip';
 import Notes from './components/Notes';
 import issuesData from './data/issues.json';
+import './styles.css';
 
 export default function App() {
   const [query, setQuery] = useState("");
@@ -22,28 +23,28 @@ export default function App() {
   );
 
   return (
-    <div style={{ maxWidth: "980px", margin: "auto", padding: "24px", fontFamily: "system-ui, Arial, sans-serif" }}>
-      <header style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12 }}>
-        <h1 style={{ margin: 0 }}>Classroom Compass</h1>
+    <div className="app-container">
+      <header className="app-header">
+        <h1 className="app-title">Classroom Compass</h1>
       </header>
 
-      <section style={{ marginTop: 16 }}>
+      <section className="section">
         <DailyTip />
       </section>
 
-      <section style={{ marginTop: 16 }}>
+      <section className="section">
         <SearchBar query={query} setQuery={setQuery} />
       </section>
 
-      <section style={{ marginTop: 8 }}>
+      <section className="section section-tight">
         <Dashboard issues={filtered} onSelect={setSelectedIssue} />
       </section>
 
-      <section style={{ marginTop: 8 }}>
+      <section className="section section-tight">
         <ResponseBuilder selectedIssue={selectedIssue} />
       </section>
 
-      <section style={{ marginTop: 8 }}>
+      <section className="section section-tight">
         <Notes />
       </section>
     </div>
