@@ -28,5 +28,16 @@
       "Use a countdown and positive narration of students meeting expectations.",
       "Reset and retry brief parts of the transition if needed."
     ]
+  },
+  {
+    "id": 4,
+    "title": "Off-task Behavior",
+    "description": "Student is distracted or not attending to the assigned task.",
+    "strategies": [
+      "Provide a clear, time-bound goal and check back promptly.",
+      "Use proximity or gentle touchpoint to re-engage attention.",
+      "Offer a brief choice in how to start or complete the task.",
+      "Acknowledge and reinforce the first sign of on-task effort."
+    ]
   }
 ]
