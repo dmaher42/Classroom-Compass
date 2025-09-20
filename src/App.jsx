@@ -4,6 +4,7 @@ import SearchBar from './components/SearchBar';
 import Dashboard from './components/Dashboard';
 import ResponseBuilder from './components/ResponseBuilder';
 import DailyTip from './components/DailyTip';
+import Notes from './components/Notes';
 import issuesData from './data/issues.json';
 
 export default function App() {
@@ -40,6 +41,10 @@ export default function App() {
 
       <section style={{ marginTop: 8 }}>
         <ResponseBuilder selectedIssue={selectedIssue} />
+      </section>
+
+      <section style={{ marginTop: 8 }}>
+        <Notes />
       </section>
     </div>
   );
