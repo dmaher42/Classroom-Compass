@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/Classroom-Compass/static/js/main.155355a1.js",
+    "main.css": "/Classroom-Compass/static/css/main.bc5b65a1.css",
+    "main.js": "/Classroom-Compass/static/js/main.e248ff20.js",
     "index.html": "/Classroom-Compass/index.html",
-    "main.155355a1.js.map": "/Classroom-Compass/static/js/main.155355a1.js.map"
+    "main.bc5b65a1.css.map": "/Classroom-Compass/static/css/main.bc5b65a1.css.map",
+    "main.e248ff20.js.map": "/Classroom-Compass/static/js/main.e248ff20.js.map"
   },
   "entrypoints": [
-    "static/js/main.155355a1.js"
+    "static/css/main.bc5b65a1.css",
+    "static/js/main.e248ff20.js"
   ]
 }
