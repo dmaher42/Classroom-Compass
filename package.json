@@ -2,7 +2,7 @@
   "name": "classroom-compass",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dmaher42.github.io/classroom-compass",
+  "homepage": "https://dmaher42.github.io/Classroom-Compass"
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
