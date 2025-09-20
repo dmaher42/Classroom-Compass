@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Calling Out",
+    "description": "Student speaks without being called on or outside of turn.",
+    "strategies": [
+      "Use a non-verbal cue (pause, hand signal).",
+      "Restate the expectation for hand up / wait time.",
+      "Acknowledge first compliant response promptly."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Low Engagement",
+    "description": "Students are off-task, bored, or not participating.",
+    "strategies": [
+      "Use pair-share or quick turn & talk.",
+      "Add movement or a quick change in modality (visuals, manipulatives).",
+      "Connect to interests and set a short, specific goal."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Transition Noise",
+    "description": "Class is noisy during activity switches or pack-up.",
+    "strategies": [
+      "Pre-teach a simple 3-step routine with a timer.",
+      "Use a countdown and positive narration of students meeting expectations.",
+      "Reset and retry brief parts of the transition if needed."
+    ]
+  }
+]
