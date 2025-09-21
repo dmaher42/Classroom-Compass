@@ -6,7 +6,9 @@
     "strategies": [
       "Use a non-verbal cue (pause, hand signal).",
       "Restate the expectation for hand up / wait time.",
-      "Acknowledge first compliant response promptly."
+      "Acknowledge first compliant response promptly.",
+      "Teach and practice call-and-response signals during calm moments.",
+      "Privately confer with the student to identify triggers and agree on a support plan."
     ]
   },
   {
@@ -16,7 +18,9 @@
     "strategies": [
       "Use pair-share or quick turn & talk.",
       "Add movement or a quick change in modality (visuals, manipulatives).",
-      "Connect to interests and set a short, specific goal."
+      "Connect to interests and set a short, specific goal.",
+      "Break tasks into short checkpoints with quick feedback.",
+      "Invite students to contribute materials or examples from their lives."
     ]
   },
   {
@@ -26,7 +30,9 @@
     "strategies": [
       "Pre-teach a simple 3-step routine with a timer.",
       "Use a countdown and positive narration of students meeting expectations.",
-      "Reset and retry brief parts of the transition if needed."
+      "Reset and retry brief parts of the transition if needed.",
+      "Designate student roles to guide materials management during switches.",
+      "Celebrate smooth transitions with class-wide acknowledgment or a quick choice activity."
     ]
   },
   {
@@ -37,7 +43,20 @@
       "Provide a clear, time-bound goal and check back promptly.",
       "Use proximity or gentle touchpoint to re-engage attention.",
       "Offer a brief choice in how to start or complete the task.",
-      "Acknowledge and reinforce the first sign of on-task effort."
+      "Acknowledge and reinforce the first sign of on-task effort.",
+      "Check for understanding by restating or modeling the first step together.",
+      "Plan short, scheduled movement or sensory breaks between sustained work periods."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Escalating Conflict",
+    "description": "Tension rises between students and risks disrupting learning.",
+    "strategies": [
+      "Use calm, neutral language to pause the interaction and separate students if needed.",
+      "Validate student feelings while reinforcing class agreements about respect.",
+      "Guide a brief restorative conversation once everyone is regulated.",
+      "Follow up with families or support staff if patterns continue."
     ]
   }
 ]
